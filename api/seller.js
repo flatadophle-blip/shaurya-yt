@@ -1,5 +1,5 @@
 // ==================== CONFIG =====================
-const YOUR_API_KEYS = ["SPLEXXO"];
+const YOUR_API_KEYS = ["ly"];
 const RAPIDAPI_HOST = "youtube-media-downloader.p.rapidapi.com";
 const RAPIDAPI_KEY = "68dd515dd3mshe757fcf6151ac56p152e78jsn96ec259df288";
 const CACHE_TIME = 3600 * 1000;
@@ -95,9 +95,9 @@ export default async function handler(req, res) {
             data = cleanOxmzoo(data);
 
             // Apna clean branding
-            data.developer = "splexxo";
-            data.credit_by = "splexx";
-            data.powered_by = "splexxo-info-api";
+            data.developer = "TG : @PYPHANTOM";
+            data.credit_by = "channel : @naexh";
+            data.powered_by = "shaurya shukla";
 
             responseBody = JSON.stringify(data);
         } catch (e) {
